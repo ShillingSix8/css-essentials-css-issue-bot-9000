@@ -1,23 +1,32 @@
 body {
-  background pink;
+  background-color: pink;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
-  color: blue;
-  fontsize: 3em; 
+  color: black;
+  font-size: 3em; 
 }
 
 h2 {
   color: green;
-  font-weight: normal
+  font-weight: normal;
   font-style: italic;
 }
 
 .completed {
-  font-family: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
 }
 
-#tasks .completed {
-  backgound: #ccc;
+#tasks.completed {
+  background-color: #ccc;
   text-decoration: underline;
+}
+
+img {
+  height: 100px;
+  padding: 20px;
 }
